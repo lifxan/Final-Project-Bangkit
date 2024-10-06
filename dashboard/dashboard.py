@@ -8,7 +8,9 @@ from PIL import Image
 sns.set(style='dark')
 
 # Menyiapkan data day_df
-day_df = pd.read_csv("day.csv")
+#day_df = pd.read_csv("day.csv")
+#day_df.head()
+day_df = pd.read_csv("data/day.csv")
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
